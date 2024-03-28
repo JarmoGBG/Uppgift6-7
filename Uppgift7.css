@@ -1,13 +1,35 @@
-/* Följande önskemål finns:
-
-    ● Text och videoinnehåll skall vara centrerat 
-    ● För och bakgrundsfärg skall ha relevans till filmen (Kolla på posters)   -- Svart BG, Orange FG?
-    ● Länklistan skall vara horisontell
-    ● Footern skall vara 50px hög och ha annan bakgrundsfärg än resten av sidan. --Gul? Röd?
-    
-    Ta gärna detta tillfälle i akt att experimentera lite med CSSen. Önskemålen är ett
-    minimum, inte ett maximum. Försök få sidan att se behaglig ut. */
+/* CSS skapad av färgblind, protan, färgschemat ser vettigt ut för mig. Your experience my vary. :) */
 
     body{
-        /* background-color: darkred; */
+         background-color: black; 
+         color: darkgoldenrod;
+         /* color: grey; */
+         text-align: center;         
+    }
+    header{
+
+        background-color: darkred;
+    }
+
+    h1{
+        color: gold;
+    }
+    h3{
+        color: gold;
+    }
+    a{
+        color: darkorange;
+    }
+
+    ul{
+        list-style-type: none;
+    }
+    li{
+        display: inline-block;
+        margin-right: 10px;
+    }
+    footer{
+        height: 50px;
+        background-color: orangered ;
+        color: yellow;
     }
